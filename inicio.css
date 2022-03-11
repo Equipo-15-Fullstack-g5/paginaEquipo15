@@ -15,7 +15,7 @@ aside h1{
 .barr{
 
     margin: 0px;
-    height: 45px;
+    height: 60px;
     background-color: rgb(206, 104, 192);
 }
 #search{
@@ -101,12 +101,15 @@ div p{
 }
 .texto{
     position: absolute;
-    top: 45%;
+    top: 35%;
+    left: 18%;
     margin: 6px;
     padding: 18px;
 }
 .texto p{
-    top: 50%;
+ 
+    margin: 120px;
+    top: 25%;
     padding: 58px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -117,14 +120,14 @@ div p{
 .imgpuff{
     position:absolute;
     top:63%;
-    left: 34%;
+    left: 35%;
     margin:3px;
     border-radius: 12px;
 }
 footer{
     position: absolute;
     top: 97%;
-    margin: 0px:
+    margin: 0px;
   
     background-color: black;
 }

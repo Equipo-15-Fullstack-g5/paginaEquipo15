@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #eca7d7;
+    background-color: #f0d2e4;
     background-image:url(./Captura-de-pantalla-2018-06-07-a-las-12.16.29-p.m.-2\ \(2\)-low_res-height-1411px-gigapixel\ \(1\).png);
 }
 .tittle{
@@ -20,7 +20,7 @@ body{
 }
 header{
     background-color: #46033215;
-    margin: 4pxpx;
+    margin: 4px;
     
 
 }
@@ -28,7 +28,7 @@ header h1{
     text-align: center;
     margin: 0px;
     height: 60px;
-    background-color: rgb(226, 196, 27);
+    background-color: rgb(226, 210, 117);
 }
 /*#bar1{
     position:static;
@@ -130,8 +130,11 @@ h3{
      /*background-color: #414141;*/
 }
 table{
+    position: absolute;
+    top:85%;
+    left: 7%;
     border-radius: 9px;
-    border-color: #61194b;
+    border-color: #742d5e;
     padding-top: 25px;
     padding-left: 20%;
     padding-right: 20%;
@@ -153,10 +156,21 @@ p{
 
 img{
     margin:3px;
+    padding: 1px;
     border-radius: 15px;
     
 }
+td img:hover{
+    transition: all.5s;
+    transform: scale(3.15);
+   
+   
+}
 footer{
+    padding-left: 41.5%;
+    padding-right: 43%;
+    position: absolute;
+    top: 118%;
     height: 35px;
     margin: 0%;
     background-color: black;
